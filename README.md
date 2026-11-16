@@ -6,9 +6,9 @@ Four projects covering payment settlement, card dispute monitoring, bank-to-book
 
 | # | Project | Tools | Folder |
 |---|---|---|---|
-| 1 | Payment Gateway Settlement & Revenue Leakage Reconciliation | PostgreSQL, Excel | [01-gateway-settlement-reconciliation](./01-gateway-settlement-reconciliation) |
-| 2 | Payment Integrity & Card Scheme Dispute Monitoring | Power Query, Excel | [02-card-dispute-monitoring](./02-card-dispute-monitoring) |
-| 3 | Bank-to-Book Cash Reconciliation | Excel | [03-bank-to-book-reconciliation](./03-bank-to-book-reconciliation) |
+| 1 | Payment Gateway Settlement & Revenue Leakage Reconciliation | PostgreSQL, Excel | [01-gateway-settlement-reconciliation](gateway-settlement-reconciliation.sql) |
+| 2 | Payment Integrity & Card Scheme Dispute Monitoring | Power Query, Excel | [02-card-dispute-monitoring](card-dispute-monitoring.xlsx) |
+| 3 | Bank-to-Book Cash Reconciliation | Excel | [03-bank-to-book-reconciliation](bank-to-book-reconciliation) |
 | 4 | Interbank Transfer, ATM & POS Settlement Reconciliation with Suspense Aging | PostgreSQL, Excel (Power Query) | [04-interbank-suspense-reconciliation](./04-interbank-suspense-reconciliation) |
 
 ## 1. Gateway Settlement Reconciliation
