@@ -9,7 +9,7 @@ Four projects covering payment settlement, card dispute monitoring, bank-to-book
 | 1 | Payment Gateway Settlement & Revenue Leakage Reconciliation | PostgreSQL, Excel | [01-gateway-settlement-reconciliation](gateway-settlement-reconciliation.sql) |
 | 2 | Payment Integrity & Card Scheme Dispute Monitoring | Power Query, Excel | [02-card-dispute-monitoring](card-dispute-monitoring.xlsx) |
 | 3 | Bank-to-Book Cash Reconciliation | Excel | [03-bank-to-book-reconciliation](bank-to-book-reconciliation) |
-| 4 | Interbank Transfer, ATM & POS Settlement Reconciliation with Suspense Aging | PostgreSQL, Excel (Power Query) | [04-interbank-suspense-reconciliation](./04-interbank-suspense-reconciliation) |
+| 4 | Interbank Transfer, ATM & POS Settlement Reconciliation with Suspense Aging | PostgreSQL, Excel (Power Query) | [04-interbank-suspense-reconciliation](interbank-suspense-reconciliation.sql) |
 
 ## 1. Gateway Settlement Reconciliation
 Matches internal e-commerce orders against Paystack-style payout files. Flags duplicate gateway charges, fee overcharges against a contracted rate (1.5% + ₦100, capped at ₦2,000), pending settlements, gross amount mismatches, unannounced chargebacks, and unmatched gateway credits.
